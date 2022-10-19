@@ -19,6 +19,8 @@
                 <tm-progress model="circle" bgColor="grey-4" color="pink"  :height="24" :width="200" v-model:percent="percent">
                 </tm-progress>
                 <view class="py-12"></view>
+                <tm-progress model="circle" semicircleFlip bgColor="grey-4" :height="24" :width="200" v-model:percent="percent"></tm-progress>
+                <view class="py-12"></view>
             </view>
 
         </tm-sheet>
